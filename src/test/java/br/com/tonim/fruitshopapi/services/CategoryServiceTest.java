@@ -28,7 +28,7 @@ class CategoryServiceTest {
     @Mock
     CategoryRepository categoryRepository;
     @Spy
-    CategoryMapper categoryMapper = Mappers.getMapper(CategoryMapper.class);;
+    CategoryMapper categoryMapper = Mappers.getMapper(CategoryMapper.class);
 
     @Test
     public void getAllCategories(){
